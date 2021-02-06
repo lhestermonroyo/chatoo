@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chatoo/static/css/main.46fccb58.chunk.css",
+    "main.js": "/chatoo/static/js/main.2fde8735.chunk.js",
+    "main.js.map": "/chatoo/static/js/main.2fde8735.chunk.js.map",
+    "runtime-main.js": "/chatoo/static/js/runtime-main.07fe2e37.js",
+    "runtime-main.js.map": "/chatoo/static/js/runtime-main.07fe2e37.js.map",
+    "static/js/2.49fda9a8.chunk.js": "/chatoo/static/js/2.49fda9a8.chunk.js",
+    "static/js/2.49fda9a8.chunk.js.map": "/chatoo/static/js/2.49fda9a8.chunk.js.map",
+    "static/js/3.e4f52ba7.chunk.js": "/chatoo/static/js/3.e4f52ba7.chunk.js",
+    "static/js/3.e4f52ba7.chunk.js.map": "/chatoo/static/js/3.e4f52ba7.chunk.js.map",
+    "index.html": "/chatoo/index.html",
+    "static/css/main.46fccb58.chunk.css.map": "/chatoo/static/css/main.46fccb58.chunk.css.map",
+    "static/js/2.49fda9a8.chunk.js.LICENSE.txt": "/chatoo/static/js/2.49fda9a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07fe2e37.js",
+    "static/js/2.49fda9a8.chunk.js",
+    "static/css/main.46fccb58.chunk.css",
+    "static/js/main.2fde8735.chunk.js"
+  ]
+}
