@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { sendMessage, isTyping } from 'react-chat-engine';
-import { SendOutlined, PictureOutlined } from '@ant-design/icons';
 
 const MessageForm = (props) => {
   const [value, setValue] = useState('');
@@ -37,7 +36,7 @@ const MessageForm = (props) => {
       />
       <label htmlFor='upload-button'>
         <span className='image-button'>
-          <PictureOutlined className='picture-icon' />
+          <i className='fa fa-camera fa-fw picture-icon' />
         </span>
       </label>
       <input
@@ -48,7 +47,7 @@ const MessageForm = (props) => {
         onChange={handleUpload}
       />
       <button type='submit' className='send-button'>
-        <SendOutlined className='send-icon' />
+        <i className='fa fa-paper-plane fa-fw' />
       </button>
     </form>
   );

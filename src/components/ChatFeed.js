@@ -58,6 +58,12 @@ const ChatFeed = (props) => {
     });
   };
 
+  const handleLogOut = () => {
+    localStorage.clear();
+
+    window.location.reload();
+  };
+
   if (!chat)
     return <p style={{ textAlign: 'center', marginTop: '2rem' }}>Loading...</p>;
 
@@ -65,13 +71,16 @@ const ChatFeed = (props) => {
     <React.Fragment>
       <div className='chat-feed'>
         <div className='chat-title-container'>
+          <button className='sign-out-button' onClick={() => handleLogOut()}>
+            <i className='fa fa-sign-out-alt fa-fw' />
+          </button>
           <div className='chat-title'>{chat.title}</div>
           <div className='chat-subtitle'>
             {chat.people.map((person) => ` ${person.person.username}`)}
           </div>
         </div>
         {renderMessages()}
-        <div style={{ height: 100 }} />
+        <div style={{ height: 30 }} />
         <div className='message-form-container'>
           <MessageForm {...props} chatId={activeChat} />
         </div>
